@@ -1,0 +1,131 @@
+.time{
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+   border-radius: 10px;
+   padding-bottom: 1rem;
+   margin-left: 2rem;
+   margin-right:2rem;
+   box-shadow: 1px 1px 5px #490028;
+   color: white;
+}
+.date{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    
+}
+.city{ 
+    border-radius: 10px;
+    background: #fff0f9;
+    box-shadow: 1px 1px 4cqmin rgba(128, 128, 128, 0.641);
+    position: relative;
+    left: -0.0000000001rem;
+    max-width: 500px;
+    margin: auto !important;
+   
+      background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+
+}
+.sun{
+    background: #ffdbefa4;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: auto;
+    width: 30%;
+    margin-bottom: 1rem;
+    padding-top: 0.1rem;
+    box-shadow: 1px 1px 4px grey;
+color: black;}
+
+.temp{
+    margin-top: 1rem;
+    color: white;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+ border-radius: 10px;
+   padding-bottom: 2rem;
+   margin-left: 2rem;
+   margin-right:2rem;
+   box-shadow: 1px 1px 5px rgb(255, 183, 236);
+   
+}
+.h1-time{
+    padding-top: 1rem;
+}
+.h3-time{
+    margin-top: -0.5rem;
+    font-size: 1.1rem;
+}
+.temperature{
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.weather-sun{
+    font-size:4rem !important;
+    margin-top: 1.5rem;
+    
+}
+.humidity{
+color: white;
+display: flex;
+justify-content: space-evenly;
+
+
+}
+.hum p {
+    padding: 0;
+    margin-bottom:0px !important;
+}
+.hum{
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+    background: #490028;
+    width: max-content;
+    padding: 1rem;
+
+
+}
+.h1{
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+.p{
+    text-align: center;
+
+}
+.main{
+    overflow: scroll;
+}
+@media screen and (max-width:600px){
+    .city{
+     
+        width: 250px;
+
+    }
+    .time,.temp{
+        margin-left:0.5rem;
+        margin-right: 0.5rem;
+    }
+    .main{
+        display: block;
+        position: relative;
+        bottom: -20px !important;
+    }
+    .hum{
+        padding: 0;
+         padding-left: 0.5rem;
+         padding-right: 0.5rem;
+        
+    }
+}
+.error{
+    background: #b60000;
+    width: fit-content;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: white
+}
