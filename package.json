@@ -1,9 +1,6 @@
+
 {
-<<<<<<< HEAD
-  "name": "weatherapp",
-=======
   "name": "materialui",
->>>>>>> e50d57ec9e4906b53bb5fc30c9edc1e0ebfd195b
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,18 +11,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@emotion/react": "^11.13.0",
-    "@emotion/styled": "^11.13.0",
-    "@fontsource/roboto": "^5.0.14",
-    "@mui/icons-material": "^5.16.7",
-    "@mui/material": "^5.16.7",
-=======
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@fontsource/roboto": "^5.0.13",
     "@mui/icons-material": "^5.15.19",
->>>>>>> e50d57ec9e4906b53bb5fc30c9edc1e0ebfd195b
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
