@@ -3,8 +3,11 @@ import "./Weather.css";
 import TimeDate from "./TimeDate.jsx";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import { useEffect, useState } from "react";
+<<<<<<< HEAD
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
+=======
+>>>>>>> e50d57ec9e4906b53bb5fc30c9edc1e0ebfd195b
 export default function Weather() {
   let [time, setTime] = useState({year:0,month:0,day:0,hours:0,minutes:0,seconds:0,dayName:3,monthname:"h"});
    let weatherData = {
@@ -57,8 +60,13 @@ export default function Weather() {
       setTime(data);
     };
     date();
+<<<<<<< HEAD
     const intervalid = setInterval(date, 1000);
     return () => clearInterval(intervalid);
+=======
+    console.log(time);
+
+>>>>>>> e50d57ec9e4906b53bb5fc30c9edc1e0ebfd195b
   
  
   }, [])
@@ -79,7 +87,11 @@ export default function Weather() {
             </div>{" "}
             <WbSunnyIcon className="weather-sun"></WbSunnyIcon>
           </div>
+<<<<<<< HEAD
           <p className="p">{weather.des}</p>
+=======
+          <p className="p"><b> {weather.des}</b></p>
+>>>>>>> e50d57ec9e4906b53bb5fc30c9edc1e0ebfd195b
           <div className="humidity">
             <div className="hum">
               <p>Humidity</p>

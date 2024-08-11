@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import { convertTo12HourFormat } from "./helperfunctions.js"
 import "@fontsource/roboto/500.css";
+=======
+import {convertTo12HourFormat} from "./helperfunctions.js"
+>>>>>>> e50d57ec9e4906b53bb5fc30c9edc1e0ebfd195b
 export default function TimeDate({ time ,sunrise , sunset,country , city}) {
   
  

@@ -42,6 +42,7 @@ top: 0.2rem;
      position: relative;
      top: -0.4rem;
      left: 3rem;
+<<<<<<< HEAD
 }
 input{
     padding: 0.3rem;
@@ -74,4 +75,6 @@ box-shadow: 1px 1px 5px  ;
     margin-top: -0.3rem;
 }
 
+=======
+>>>>>>> e50d57ec9e4906b53bb5fc30c9edc1e0ebfd195b
 }
