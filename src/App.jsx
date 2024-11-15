@@ -1,6 +1,7 @@
 import React from "react";
 import "./Weather.css"
 import Weather from "./Weather.jsx"
+
 function App() {
 const style = {
   backgroundImage:
@@ -14,7 +15,6 @@ const style = {
   return (
     <div>
       <Weather></Weather>
-    <h1>hello</h1>
       
     </div>
   );

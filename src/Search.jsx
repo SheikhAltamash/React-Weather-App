@@ -1,7 +1,5 @@
 import SearchIcon from "@mui/icons-material/Search";
 import Button from "@mui/material/Button";
-import React from "react";
-
 import {convertUnixTimestampTo12HourFormat}  from "./helperfunctions.js";
 import "./search.css";
 import { useState } from "react";

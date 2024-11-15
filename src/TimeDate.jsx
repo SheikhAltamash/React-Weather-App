@@ -1,6 +1,6 @@
 import { convertTo12HourFormat } from "./helperfunctions.js"
 import React from "react";
-
+import "@fontsource/roboto/500.css";
 export default function TimeDate({ time ,sunrise , sunset,country , city}) {
   
  
